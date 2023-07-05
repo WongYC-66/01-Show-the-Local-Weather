@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+  <div id='container'>
+    
+  <div>
+    <br/>
+    <h1>Local Weather Apps</h1>
+    <h2 id='dateDisplay'>Loading... Please enable browser to read geography location, then refresh....</h2>
+    <div><img id='icon' src='' class='grid-item'></img></div>
+  </div>
+  <div id='contents'>
+    <div class='left'>
+      <div id='weather' class='grid-item'></div>
+      <div id='weather_desc' class='grid-item'></div>
+      <div id='temperature' class='grid-item'></div>
+    </div>
+    <div class='right'>
+      <div id='userLocation' class='grid-item'></div>
+      <div id='wind' class='grid-item'></div>
+      <div id='humidity' class='grid-item'></div>
+      <div id='feels_like' class='grid-item'></div>
+    </div>
+  </div>
+  <br/>
+  <div class='grid-item'>
+    <button id='unitBtn' unit='celsius' type="button" class="btn btn-dark">in °F</button>
+    <button id='randomBtn' type="button" class="btn btn-light" onclick='updateWeatherInfo("random")'>Random location</button>
+      
+  </div>
+  
+  </div>
+  <footer>
+    <br/>
+    <p> Designed and coded by YC Wong</p>
+  </footer>
+</body>
+</html>

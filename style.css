@@ -1,0 +1,30 @@
+body{
+    font-family: 'Share Tech Mono', monospace;
+    font-size : 20px;
+  }
+  
+  #container{
+    margin : auto;
+    text-align : center;
+  /*   border : 1px solid black; */
+  }
+  #contents{
+    display : grid;
+    grid-template-columns: auto auto;
+    width : 60%;
+    margin : auto;
+  }
+  #contents > div{
+    border : 1px solid black;
+  }
+  #icon{
+    width: 75px;
+  }
+  .right{
+  /*   text-align : left; */
+  }
+  
+  footer{
+    text-align : center;
+  }
+  
